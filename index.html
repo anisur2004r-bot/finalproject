@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Tagesschrift&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+        * {
+            font-family: "Rajdhani", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-[#1B1316] text-white hidden md:block lg:block">
+        <div
+            class="fixed top-0 left-0 h-full w-74 bg-[#1B1316] text-white flex flex-col items-center p-10 justify-between container ms-auto py-8">
+            <div>
+                <img class="rounded-full w-60 border border-gray-700" src="img/banner-user-image-04.png" alt="">
+            </div>
+            <div class="flex flex-col gap-4 py-5 ">
+                <div class="flex items-center gap-3 bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer">
+                    <img src="img/home.png" alt="">
+                    <p class=" font-bold text-[#FF014F]"><a href="#Home">Home</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/shopping-bag.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Features">Features</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/layers.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Protfolio">Protfolio</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/user-groups.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Resume">Resume</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/user.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Clients">Clients</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/trolley.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Pricing">Pricing</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/image.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Blog">Blog</a></p>
+                </div>
+                <div
+                    class="flex items-center gap-3 hover:bg-[#2C121A] w-44 py-1 px-4 hover:cursor-pointer duration-500">
+                    <img src="img/chat.png" alt="">
+                    <p class=" font-bold hover:text-[#FF014F] duration-500"><a href="#Contact">Contact</a></p>
+                </div>
+            </div>
+            <div class="border-t border-gray-500">
+                <h3 class="text-xl font-semibold text-gray-400 ml-2 mt-7">Find With Me</h3>
+                <div class="flex gap-3 mt-3">
+                    <img class="bg-[#362027] p-2 h-10 rounded-full hover:bg-[#FF014F] duration-300 cursor-pointer"
+                        src="img/video.png" alt="">
+
+                    <img class="bg-[#362027] p-2 h-10 rounded-full hover:bg-[#FF014F] duration-300 cursor-pointer"
+                        src="img/linkedin.png" alt="">
+
+                    <img class="bg-[#362027] p-2 h-10 rounded-full hover:bg-[#FF014F] duration-300 cursor-pointer"
+                        src="img/twitter.png" alt="">
+
+                    <a href="https://www.facebook.com/md.anisur.rahman.764890" target="_blank">
+                        <img class="bg-[#362027] p-2 h-10 rounded-full hover:bg-[#FF014F] duration-300 cursor-pointer"
+                            src="img/facebook-app-symbol.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="md:ml-74 lg:ml-74">
+        <section id="Home">
+            <div class="bg-black text-white">
+                <div class="block md:hidden">
+                    <div class="flex items-center justify-between container mx-auto px-4 py-3">
+                        <h2 class="text-4xl font-bold">ani<span class="text-[#FF014F]">sur</span> </h2>
+                        <div
+                            class="border border-[#FF014F] rounded-full bg-[#FF014F] w-12 h-12 flex flex-col items-center justify-center hover:bg-black duration-500 ">
+                            <img src="img/menu-bar.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col-reverse md:flex-row items-center justify-between container mx-auto px-5 md:px-8 xl:px-10 py-10 md:py-5">
+                    <div class="flex flex-col gap-4 md:gap-6 mt-8">
+                        <h4 class="text-3xl font-semibold">HELLO</h4>
+                        <h2 class="text-4xl md:text-6xl font-bold ">i'am anisur rahman</h2>
+                        <p class="text-[#E30247] text-4xl md:text-6xl font-bold"><span class="text-white">A</span>
+                            Frontend Developer</p>
+                        <p class="w-full md:w-120 xl:w-120 ">A personal portfolio is a collection of your work,
+                            achievements, and skills that highlights your abilities and professional growth. It serves
+                            as</p>
+                        <div
+                            class="flex flex-row gap-1 bg-[#e30247] w-40 md:w-50 py-3 md:py-4 md:px-10 px-5 rounded-full hover:flex-row-reverse cursor-pointer hover:bg-[#92082A] duration-700">
+                            <p>View Protfolio</p>
+                            <img src="img/left-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-3 relative z-10 w-70 md:w-auto">
+                        <img src="img/banner-user-image-02.png" alt="">
+                        <div>
+                            <h2
+                            class="text-5xl md:text-7xl -z-10 font-bold absolute md:top-60 top-30 md:right-10  animate-bounce whitespace-nowrap">
+                            WEB DEVELOPER</h2>
+                        <p
+                            class="text-[#FF014F] text-5xl md:text-7xl font-bold absolute top-90 md:top-180 md:right-10 z-10 animate-bounce whitespace-nowrap">
+                            WEB DEVELOPER</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Features">
+            <div class="bg-black text-white">
+                <div class="grid grid-cols md:flex gap-7 items-center justify-center container mx-auto px-4 py-10">
+                    <div class="flex flex-col gap-7">
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h3 class="text-3xl font-semibold">01. Success Architects</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h3 class="text-3xl font-semibold">02. Success Architects</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h3 class="text-3xl font-semibold">03. Success Architects</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h3 class="text-3xl font-semibold">04. Ui/visual Design</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer ">
+                            <h3 class="text-3xl font-semibold">05. Branding Design</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h3 class="text-3xl font-semibold">06. Motion Design</h3>
+                            <p class="text-gray-400 md:w-100">Business consulting consultants expert advice and guida
+                                the a
+                                businesses to help theme ther performance efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Protfolio">
+            <div class="bg-black text-white">
+                <div class="flex flex-col gap-3 items-center py-10 ">
+                    <h4 class="uppercase text-xl font-bold text-[#FF014F] mt-10">Latest Portfolio</h4>
+                    <h2 class="text-2xl md:text-5xl font-semibold w-full md:w-120 text-center">Transforming Ideas into
+                        Exceptional</h2>
+                    <p class="text-gray-300 w-full md:w-140 text-center px-8 md:px-0">Business consulting consultants
+                        provide expert advice and
+                        guida businesses to help them improve
+                        their performance, efficiency, and organizational
+                    </p>
+                </div>
+
+                <div>
+                    <div class="grid grid-cols md:flex gap-7 items-center justify-center container mx-auto">
+                        <div>
+                            <div
+                                class="rounded-xl bg-[#191315] w-100 md:w-150 flex flex-col items-center py-3 md:py-5  gap-6 container mx-auto">
+                                <h3 class="text-3xl font-semibold">Personal Protfolio</h3>
+                                <div class="w-90 md:w-120 rounded-md hover:scale-105 duration-700">
+                                    <img src="img/project3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between container mx-auto py-10 md:w-full w-94">
+                                <div class="flex flex-col gap-3">
+                                    <h3
+                                        class="text-xl md:text-2xl font-semibold hover:border-b hover:text-[#ff014f] duration-700 cursor-pointer">
+                                        <a href="https://anisur2004r-bot.github.io/reeni/" target="_blank">In this
+                                            portfolio, you’ll
+                                            find a curated selection
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-300">Web Design</p>
+                                </div>
+                                <div
+                                    class="border border-gray-600 hover:bg-[#FF014F] duration-500 cursor-pointer p-2 rounded-xl">
+                                    <a href="https://anisur2004r-bot.github.io/reeni/" target="_blank"><img
+                                            src="img/arrow-up-right.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                class="rounded-xl bg-[#191315] w-100 md:w-150 flex flex-col items-center py-3 md:py-5 gap-4 md:gap-7 container mx-auto ">
+                                <h3 class="text-3xl font-semibold">Ecomarce website</h3>
+                                <div class="w-84 md:w-120 rounded-md hover:scale-105 duration-700">
+                                    <img src="img/project1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between container mx-auto py-10 md:w-full w-94">
+                                <div class="flex flex-col gap-3">
+                                    <h3
+                                        class="text-xl md:text-2xl font-semibold hover:border-b hover:text-[#ff014f] duration-700 cursor-pointer">
+                                        <a href="https://anisur2004r-bot.github.io/ecobazar/" target="_blank">My work is
+                                            driven by the belief that thoughtful.</a>
+                                    </h3>
+                                    <p class="text-gray-300">Web Development</p>
+                                </div>
+                                <div
+                                    class="border border-gray-600 hover:bg-[#FF014F] duration-500 cursor-pointer p-2 rounded-xl">
+                                    <a href="https://anisur2004r-bot.github.io/ecobazar/" target="_blank"><img
+                                            src="img/arrow-up-right.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols md:flex gap-7 items-center justify-center container mx-auto">
+                        <div>
+                            <div
+                                class="rounded-xl bg-[#191315] w-94 md:w-140 flex flex-col items-center py-3 md:py-5 container mx-auto">
+                                <h3 class="text-3xl font-semibold">Supar shop app</h3>
+                                <div class="w-90 md:w-120 rounded-md hover:scale-105 duration-700 p-7">
+                                    <img src="img/project4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between container mx-auto py-10 md:w-full w-94">
+                                <div class="flex flex-col gap-3">
+                                    <h3
+                                        class="text-xl md:text-2xl font-semibold hover:border-b hover:text-[#ff014f] duration-700 cursor-pointer">
+                                        <a href="https://anisur2004r-bot.github.io/suparshop/" target="_blank">Digital
+                                            Transformation Advisors
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-300">Web Design</p>
+                                </div>
+                                <div
+                                    class="border border-gray-600 hover:bg-[#FF014F] duration-500 cursor-pointer p-2 rounded-xl">
+                                    <a href="https://anisur2004r-bot.github.io/suparshop/" target="_blank"><img
+                                            src="img/arrow-up-right.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div
+                                class="rounded-xl bg-[#191315] w-100 md:w-150 flex flex-col items-center py-3 md:py-9 gap-4 md:gap-7 container mx-auto ">
+                                <h3 class="text-3xl font-semibold">Ecomarce website</h3>
+                                <div class="w-84 md:w-120 rounded-md hover:scale-105 duration-700">
+                                    <img src="img/peoject2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between container mx-auto py-10 md:w-full w-94">
+                                <div class="flex flex-col gap-3">
+                                    <h3
+                                        class="text-xl md:text-2xl font-semibold hover:border-b hover:text-[#ff014f] duration-700 cursor-pointer">
+                                        <a href="https://anisur2004r-bot.github.io/Ecomarce/" target="_blank">I’ve had
+                                            the privilege of working with various
+                                        </a>
+                                    </h3>
+                                    <p class="text-gray-300">Web Development</p>
+                                </div>
+                                <div
+                                    class="border border-gray-600 hover:bg-[#FF014F] duration-500 cursor-pointer p-2 rounded-xl">
+                                    <a href="https://anisur2004r-bot.github.io/Ecomarce/" target="_blank"><img
+                                            src="img/arrow-up-right.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Resume">
+            <div class="bg-black text-white">
+
+                <div class="flex flex-col gap-3 items-center py-10 ">
+                    <h4 class="uppercase text-xl font-bold text-[#FF014F] mt-10">Education & Experience</h4>
+                    <h2 class="text-2xl md:text-5xl font-semibold w-full md:w-120 text-center">Empowering Creativity
+                        through</h2>
+                    <p class="text-gray-300 w-full md:w-140 text-center px-8 md:px-0">Business consulting consultants
+                        provide expert advice and
+                        guida businesses to help them improve
+                        their performance, efficiency, and organizational
+                    </p>
+                </div>
+
+                <div class="px-8 md:px-30 mt-5 flex flex-col items-center justify-center">
+                    <div class="flex items-center gap-1 text-3xl font-bold">
+                        <h2>Education</h2>
+                        <img class="w-14" src="img/back.png" alt="">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols md:flex gap-7 items-center justify-center container mx-auto px-4 py-10">
+                    <div class="flex flex-col gap-7">
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h2 class="text-xl font-bold ">SSC off Science</h2>
+                            <h3 class="text-3xl font-semibold">Batech of 2021</h3>
+                            <p class="text-gray-400 md:w-120">Passed SSC from <span class="text-[#FF014F]"><a
+                                        href="https://www.gandhamaruasc.edu.bd/" target="_blank">Ghanda Marua School &
+                                        College</a> </span> in 2021.
+                                Built core academic skills and actively took part in school programs.</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h2 class="text-xl font-bold ">Intarn of web Development</h2>
+                            <h3 class="text-3xl font-semibold">September 01-december 30</h3>
+                            <p class="text-gray-400 md:w-130">Did a Web Development Internship at <span
+                                    class="text-[#EA0249]"><a href="https://www.bdcallingacademy.com/"
+                                        target="_blank">BD Calling Academy</a></span> Company.
+                                Learned project-based coding and teamwork in a professional environment.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer">
+                            <h2 class="text-xl font-bold ">Diploma in engineering </h2>
+                            <h3 class="text-3xl font-semibold">Start 2021-End 2025</h3>
+                            <p class="text-gray-400 md:w-120">Finished Diploma from <span class="text-[#EA0249]"><a
+                                        href="https://www.facebook.com/tpi.rangpur/" target="_blank">TMSS Polytechnic
+                                        Institute, Rangpur.</a></span>
+                                Learned practical technical skills and project-based experience.</p>
+                        </div>
+                        <div
+                            class="flex flex-col gap-5 bg-[#141414] rounded-xl w-full md:w-140 px-10 py-7 hover:border border-[#FF014F] cursor-pointer ">
+                            <h2 class="text-xl font-bold ">Dipartment of CSE</h2>
+                            <h3 class="text-3xl font-semibold">Diploma in computer science</h3>
+                            <p class="text-gray-400 md:w-100"><span class="text-[#EA0249]">Diploma in CSE</span> from
+                                TMSS Polytechnic Institute, Rangpur.
+                                Web Development Intern at BD Calling IT Company.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div
+                        class="grid grid-cols md:flex items-center justify-between container mx-auto px-4 md:px-30 py-10">
+
+                        <div class="flex flex-col gap-7 mt-12">
+                            <h2 class="text-3xl font-bold">Experience</h2>
+                            <div class="flex flex-col gap-1">
+                                <p class="text-xl font-semibold text-[#FF014F]">experience</p>
+                                <h3 class="text-2xl font-bold">Shoft Tech (2 Years)</h3>
+                                <h4 class="text-2xl">Frontend Developer</h4>
+                                <p class="w-100 text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum desi dolore eu
+                                    fugiat nulla pariatu Duis aute irure.</p>
+                            </div>
+                            <div class="flex flex-col gap-1">
+                                <p class="text-xl font-semibold text-[#FF014F]">experience</p>
+                                <h3 class="text-2xl font-bold">ModernTech (3 Years)</h3>
+                                <h4 class="text-2xl">Web Developer</h4>
+                                <p class="w-100 text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit
+                                    esse cillum desi dolore eu
+                                    fugiat nulla pariatu Duis aute irure.</p>
+                            </div>
+                        </div>
+                        <div class="w-94 md:w-140 mt-5">
+                            <img class="rounded-xl" src="img/expert-img.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Clients">
+            <div class="bg-black">
+                <div class=" flex flex-col items-center justify-center px-5 md:px-0 py-10 md:py-20">
+                    <div class="grid grid-cols md:flex">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-1.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-3.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-4.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-5.svg"
+                            alt="">
+                    </div>
+                    <div class="grid grid-cols md:flex">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-6.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-7.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-8.svg"
+                            alt="">
+                        <img class="w-full md:w-71 border border-gray-700 px-28 md:px-18 py-7 md:py-14"
+                            src="https://inversweb.com/product/html/reeni/assets/images/our-supported-company/company-logo-2.svg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Pricing">
+            <div class="bg-black text-white">
+                <div>
+                    <div class="flex flex-col gap-3 items-center py-10 ">
+                        <h4 class="uppercase text-xl font-bold text-[#FF014F] mt-10">My price plan</h4>
+                        <h2 class="text-2xl md:text-5xl font-semibold w-100 md:w-120 text-center">Enhancing
+                            Collaboration
+                            between Remote</h2>
+                    </div>
+                    <div class="grid grid-cols md:flex gap-8 items-center justify-center container mx-auto py-10">
+                        <div
+                            class="flex flex-col gap-10 bg-[#141414] rounded-2xl py-8 w-full md:w-94 px-20 md:px-8 hover:border border-[#FF014F]">
+                            <div>
+                                <h4 class="text-xl font-semibold">Starter</h4>
+                                <h2 class="text-6xl font-bold py-3">$ 4.00</h2>
+                                <p class="text-xl font-semibold">Per Month</p>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">4 Social Media Account</p>
+                                </div>
+                                <div class="flex items-center gap-1 py-5">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">Free Platfrom Access</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">24/7 Customer Support</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 border border-gray-500 hover:bg-[#FF014F] duration-500 hover:flex-row-reverse cursor-pointer w-38 px-5 py-3 rounded-full">
+                                <p class="text-xl font-semibold">Get Start</p>
+                                <img src="img/left-arrow.png" alt="">
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-10 bg-[#141414] rounded-2xl py-8 w-full md:w-94 px-20 md:px-8 hover:border border-[#FF014F] ">
+                            <div>
+                                <h4 class="text-xl font-semibold">Basis</h4>
+                                <h2 class="text-6xl font-bold py-3">$ 230.00</h2>
+                                <p class="text-xl font-semibold">Per Month</p>
+                            </div>
+                            <div class="flex flex-col gap-5">
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">4 Social Media Account</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">Free Platfrom Access</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">24/7 Customer Support</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">Life time Support</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 border border-gray-500 bg-[#FF014F] hover:bg-[#141414] duration-500 hover:flex-row-reverse cursor-pointer w-38 px-5 py-3 rounded-full">
+                                <p class="text-xl font-semibold">Get Start</p>
+                                <img src="img/left-arrow.png" alt="">
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col gap-10 bg-[#141414] rounded-2xl py-8 w-full md:w-94 px-20 md:px-8 hover:border border-[#FF014F]">
+                            <div>
+                                <h4 class="text-xl font-semibold">Primium</h4>
+                                <h2 class="text-6xl font-bold py-3">$ 4.00</h2>
+                                <p class="text-xl font-semibold">Per Month</p>
+                            </div>
+                            <div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">4 Social Media Account</p>
+                                </div>
+                                <div class="flex items-center gap-1 py-5">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">Free Platfrom Access</p>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="img/check-circle.png" alt="">
+                                    <p class="text-gray-400">24/7 Customer Support</p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex items-center gap-1 border border-gray-500 hover:bg-[#FF014F] duration-500 hover:flex-row-reverse cursor-pointer w-38 px-5 py-3 rounded-full">
+                                <p class="text-xl font-semibold">Get Start</p>
+                                <img src="img/left-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Blog">
+            <div class="bg-black text-white">
+                <div>
+                    <div class="flex flex-col gap-3 items-center py-10 ">
+                        <h4 class="uppercase text-xl font-bold text-[#FF014F] mt-10">Blog and News</h4>
+                        <h2 class="text-2xl md:text-5xl font-semibold w-90 md:w-170 text-center">Elevating Personal
+                            Branding the
+                            through Powerful Portfolios</h2>
+                    </div>
+
+                    <div class="grid grid-cols md:flex gap-5 items-center justify-center py-10">
+                        <div class="border border-gray-800 rounded-xl w-100 ">
+                            <img class="rounded-2xl animate-pulse" src="img/blog-img-4.jpg" alt="">
+                            <div class="flex flex-col gap-5 py-8 px-8 ">
+                                <h2
+                                    class="text-2xl md:w-80 font-semibold hover:text-[#FF014F] duration-700 cursor-pointer">
+                                    Let’s bring your ideas to life! Contact me, and let’s</h2>
+                                <p class="hover:text-[#ff014f] duration-700 cursor-pointer">READ MORE ></p>
+                            </div>
+                        </div>
+                        <div class="border border-gray-800 rounded-xl w-100 ">
+                            <img class="rounded-2xl animate-pulse" src="img/blog-img-6.jpg" alt="">
+                            <div class="flex flex-col gap-5 py-8 px-8 ">
+                                <h2
+                                    class="text-2xl md:w-80 font-semibold hover:text-[#FF014F] duration-700 cursor-pointer">
+                                    Let’s bring your ideas to life! Contact me, and let’s</h2>
+                                <p class="hover:text-[#ff014f] duration-700 cursor-pointer">READ MORE ></p>
+                            </div>
+                        </div>
+                        <div class="border border-gray-800 rounded-xl w-100 ">
+                            <img class="rounded-2xl animate-pulse" src="img/blog-img-5.jpg" alt="">
+                            <div class="flex flex-col gap-5 py-8 px-8 ">
+                                <h2
+                                    class="text-2xl md:w-80 font-semibold hover:text-[#FF014F] duration-700 cursor-pointer">
+                                    Let’s bring your ideas to life! Contact me, and let’s</h2>
+                                <p class="hover:text-[#ff014f] duration-700 cursor-pointer">READ MORE ></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="bg-black text-white py-20 flex flex-col items-center justify-center">
+                <div class="grid grid-cols md:flex items-center justify-between px-7 md:px-18 py-8 bg-[#141414] rounded-2xl md:w-310 md:ml-17 gap-8">
+                    <div class="flex flex-col gap-5">
+                        <h4 class="text-xl font-semibold text-[#FF014F]">GET IN TOUCH</h4>
+                        <h2 class="text-3xl md:text-5xl font-semibold w-100">Elevate your brand with Me</h2>
+                        <p class="w-80 md:w-84 font-semibold text-gray-400">ished fact that a reader will be distrol acted
+                            bioiiy desig ished fact that a reader will acted ished fact that a reader will be distrol
+                            acted</p>
+                    </div>
+                    <div class="flex flex-col gap-8">
+                        <div class="grid grid-cols md:flex gap-8">
+                            <input class="border border-gray-600 rounded-md w-70 py-3 px-5 hover:border-[#FF014F] duration-700" type="text"
+                                placeholder="Your Name">
+                            <input class="border border-gray-600 rounded-md  w-70 py-3 px-5 hover:border-[#FF014F] duration-700" type="text"
+                                placeholder="Phone nember">
+                        </div>
+                        <div class="grid grid-cols md:flex gap-8">
+                            <input class="border border-gray-600 rounded-md w-70 py-3 px-5 hover:border-[#FF014F] duration-700" type="email"
+                                placeholder="Email">
+                            <input class="border border-gray-600 rounded-md w-70 py-3 px-5 hover:border-[#FF014F] duration-700" type="text"
+                                placeholder="Subject">
+                        </div>
+                        <div>
+                            <textarea class="border border-gray-800 rounded-xl w-84 md:w-148 h-34 md:h-50 p-4 hover:border-[#FF014F] duration-700" name="Massage" id="" placeholder="Your Massage"></textarea>
+                            <div class="flex items-center gap-1 bg-[#FF014F] py-3 md:px-49 border border-gray-800 rounded-full mt-2 px-20 hover:flex-row-reverse hover:bg-[#eb1a58] duration-700 cursor-pointer">
+                                <p class="text-xl font-bold">Appointment Now</p>
+                                <img src="img/left-arrow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="md:ml-74 lg:ml-74">
+        <div class="bg-[#141414] text-white">
+            <div class="grid grid-cols md:flex items-center justify-between px-10 md:px-20 py-10">
+                <div class="flex flex-col gap-8 py-10">
+                     <h4 class="text-2xl font-bold text-[#FF014F] mb-10">ANI<span class="text-white">SUR</span></h4>
+                     <h2 class="text-5xl md:w-100 font-semibold">Get Ready <span class="font-normal">To Create Great</span></h2>
+                     <div class="flex items-center gap-30 border-b border-gray-900 w-77 py-5">
+                        <input type="email" autocomplete="off" placeholder="Email">
+                        <img src="img/envelope.png" alt="">
+                     </div>
+                </div>
+                <div class="flex flex-col gap-10 mb-6">
+                    <h3 class="text-2xl font-bold">Quick Link</h3>
+                    <ul class="flex flex-col font-semibold gap-4">
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-16">About Me</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-12">Service</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-19">Contact Me</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-16">Blog Post</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-12">Pricing</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="flex flex-col gap-4 py-10">
+                        <h3 class="text-2xl font-bold">Contact</h3>
+                        <div class="flex items-center gap-6">
+                            <img class="border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/envelope.png" alt="">
+                            <p class=" font-semibold">anisur2004r@gmail.com</p>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <img class="border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/marker.png" alt="">
+                            <p class=" font-semibold">Sahinbag, Tezgon, Mohakhali, Dhaka 1212 </p>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <img class="border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/call-incoming.png" alt="">
+                            <p class=" font-semibold">01914106079</p>
+                        </div>
+                        <div class="flex gap-5 mt-5">
+                            <img class="bg-gray-900 border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/facebook-app-symbol.png" alt="">
+                            <img class="bg-gray-900 border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/twitter.png" alt="">
+                            <img class="bg-gray-900 border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/linkedin.png" alt="">
+                            <img class="bg-gray-900 border border-gray-700 p-2 rounded-full hover:bg-[#FF014F] duration-700" src="img/video.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 md:ml-8 ">
+                <div class="grid grid-cols gap-8 px-8 md:flex items-center justify-between md:px-14 py-10 ">
+                   <h4 class=" font-semibold">&copy;AnisWeb &nbsp;<span class="font-normal text-gray-500">2025 | All Rights Reserved</span></h4>
+                   <ul class="flex font-semibold gap-5">
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-32">Trams & Condition</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-23">Privacy Policy</li>
+                        <li class="hover:border-b hover:text-[#FF014F] duration-700 cursor-pointer w-14">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
